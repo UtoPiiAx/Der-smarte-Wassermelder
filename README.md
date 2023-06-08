@@ -10,7 +10,7 @@ Sven Graupner
 Marie Witte
 Mirko Lohmann
 
-In diesem Respository befinden sich sämtliche zur Installation und Inbetriebnahme des Smarten Rauchmelders erforderlichen Dateien.
+In diesem Respository befinden sich sämtliche zur Installation und Inbetriebnahme des smarten Wassermelders erforderlichen Dateien.
 
 Benötigte Hardware:
 
