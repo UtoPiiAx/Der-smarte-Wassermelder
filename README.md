@@ -19,6 +19,7 @@ In diesem Respository befinden sich sämtliche zur Installation und Inbetriebnah
 * Halterung für Wasserstandsensor
 * Powerbank mit Solaraufladung
 * Wasserdichtes Gefäß
+* Kabelhalterung
 
 ## Benötigte Software:
 * smarter_wassermelder.ino
