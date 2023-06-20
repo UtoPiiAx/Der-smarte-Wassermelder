@@ -10,19 +10,20 @@ Mitglieder:
 * Marie Witte
 * Mirko Lohmann
 
-In diesem Respository befinden sich sämtliche zur Installation und Inbetriebnahme des smarten Wassermelders erforderlichen Dateien.
+Dieses Projekt beinhaltet die Messung des Wasserstandes in einem Gefäß durch einen D1 Mini - ESP8266 mit einem Wasserstandsensor und basierend darauf die Benachrichtigung per E-Mail wie hoch dieser Wasserstand in dem jeweiligen Gefäß ist.
+
+In diesem Respository befinden sich sämtliche zur Installation und Inbetriebnahme des smarten Wassermelders erforderlichen Dateien. 
+Die Powerbank ist optional und dient lediglich als Stromzufuhr für den ESP8266 und kann alternativ auch durch 
+eine andere Stromquelle ersetzt werden.
 
 ## Benötigte Hardware:
-* Arduino Uno
-* Gehäuse für Arduino
+* D1 Mini - ESP8266
+* Gehäuse für D1 Mini - ESP8266
 * Wasserstandsensor
 * Halterung für Wasserstandsensor
+* Kabelhalterung
 * Powerbank mit Solaraufladung
 * Wasserdichtes Gefäß
-* Kabelhalterung
 
 ## Benötigte Software:
 * smarter_wassermelder.ino
-
-## Empfohlenes Gehäuse für Arduino:
-https://www.reichelt.de/gehaeuse-fuer-arduino-uno-leonardo-m0-pro-yun-schwarz-1593-leon-sw-p221504.html?&trstct=pos_3&nbc=1
