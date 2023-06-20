@@ -27,3 +27,7 @@ eine andere Stromquelle ersetzt werden.
 
 ## Benötigte Software:
 * smarter_wassermelder.ino
+
+## Verwendete Bibliotheken:
+* WiFi Manager by tzapu: https://github.com/tzapu/WiFiManager
+* ESP Mail Client by mobizt: https://github.com/mobizt/ESP-Mail-Client
