@@ -7,8 +7,8 @@ const int waterSensorPowerPin = 4; // Pin für die Stromversorgung
 
 // Deklaration und Initialisierung der Kalibrationswerte
 const int waterLevelLow = 50; // Niedriger Wasserstand
-const int waterLevelMiddle = 280; // Mittlerer Wasserstand
-const int waterLevelHigh = 330; // Hoher Wasserstand
+const int waterLevelMiddle = 500; // Mittlerer Wasserstand
+const int waterLevelHigh = 900; // Hoher Wasserstand
 
 // Definition der Server Credentials für E-Mail (SMTP Protokoll)
 #define SMTP_server "smtp.gmail.com" // SMTP-Server-Adresse
