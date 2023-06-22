@@ -6,9 +6,9 @@ const int waterAnalogPin = A0; // Pin, an dem der Wasserstandsensor angeschlosse
 const int waterSensorPowerPin = 4; // Pin für die Stromversorgung
 
 // Deklaration und Initialisierung der Kalibrationswerte
-const int waterLevelLow = 50; // Niedriger Wasserstand
-const int waterLevelMiddle = 500; // Mittlerer Wasserstand
-const int waterLevelHigh = 900; // Hoher Wasserstand
+const int waterLevelLow = 50; // Niedriger Wasserstand (minimaler Wert = 0)
+const int waterLevelMiddle = 500; // Mittlerer Wasserstand (mittlerer Wert = 512)
+const int waterLevelHigh = 900; // Hoher Wasserstand (maximaler Wert = 1023)
 
 // Definition der Server Credentials für E-Mail (SMTP Protokoll)
 #define SMTP_server "smtp.gmail.com" // SMTP-Server-Adresse
@@ -88,5 +88,5 @@ void loop() {
       Serial.println("Die E-Mail wurde erfolgreich versendet");
   }
   digitalWrite(waterSensorPowerPin, LOW); // Schaltet den Strom für den Sensor aus
-  delay(30000); // Wartezeit zwischen den Messungen
+  delay(3600000); // Wartezeit zwischen den Messungen (1 Stunde = 3600000 Millisekunden)
 }
