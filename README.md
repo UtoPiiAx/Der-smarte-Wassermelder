@@ -22,6 +22,9 @@ eine andere Stromquelle ersetzt werden.
 * Wasserstandsensor
 * Halterung für Wasserstandsensor
 * Kabelhalterung
+* Buchse-Stecker-Kabel
+* Schraube, Mutter und Unterlegscheiben
+* USB-A zu USB-Micro-B Kabel
 * Powerbank mit Solaraufladung
 * Wasserdichtes Gefäß
 
