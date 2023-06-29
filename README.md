@@ -34,3 +34,4 @@ eine andere Stromquelle ersetzt werden.
 ## Verwendete Bibliotheken:
 * WiFi Manager by tzapu: https://github.com/tzapu/WiFiManager
 * ESP Mail Client by mobizt: https://github.com/mobizt/ESP-Mail-Client
+* Anleitung Inspiration von: https://microcontrollerslab.com/esp8266-send-email-smtp-server-arduino-ide/
