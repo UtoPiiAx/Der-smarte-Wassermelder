@@ -49,6 +49,7 @@ void setup() {
 
   // Programm beenden, wenn keine Verbindung zum SMTP-Server hergestellt werden kann
   if (!smtp.connect(&session))
+    Serial.println("Es konnte keine Verbindung zum SMTP-Server hergestellt werden");
     return;
 }
 
