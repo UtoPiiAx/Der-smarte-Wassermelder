@@ -19,7 +19,6 @@ const int waterLevelHigh = 900; // Hoher Wasserstand (maximaler Wert = 1023)
 
 // Deklaration der globalen WiFi und E-Mail Objekte
 WiFiManager wifiManager; // WiFi-Manager-Objekt zum Verwalten der WiFi-Verbindung
-WiFiClient client; // WiFi-Client-Objekt für die Verbindung
 SMTPSession smtp; // SMTP-Sitzungsobjekt zum Versenden von E-Mails
 SMTP_Message message; // E-Mail-Nachrichtenobjekt
 ESP_Mail_Session session; // ESP-Mail-Sitzungsobjekt
