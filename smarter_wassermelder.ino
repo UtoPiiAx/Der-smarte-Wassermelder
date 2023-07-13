@@ -14,7 +14,7 @@ const int waterLevelHigh = 900; // Hoher Wasserstand (maximaler Wert = 1023)
 #define SMTP_server "smtp.gmail.com" // SMTP-Server-Adresse
 #define SMTP_Port 465 // SMTP-Server-Port
 #define sender_email "smarterwassermelder@gmail.com" // Absender-E-Mail-Adresse
-#define sender_password "lbbsunptnwfhznzo" // Absender-E-Mail-Passwort
+#define sender_password "App-Passwort hier eintragen" // Generiertes App-Passwort als Authentifizierungsalternative
 #define Recipient_email "sven.graupner@uni-oldenburg.de" // Empfänger-E-Mail-Adresse
 
 // Deklaration der globalen WiFi und E-Mail Objekte
